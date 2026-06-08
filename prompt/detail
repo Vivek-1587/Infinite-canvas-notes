@@ -1,0 +1,71 @@
+# Infinite Canvas Notes - Main Prompt
+
+This is the main AI prompt used to generate the project.
+
+---
+
+## Project Goal
+
+Build a production-ready Infinite Canvas Notes application similar to Obsidian + Miro.
+
+---
+
+## Requirements Provided to AI
+
+* Infinite canvas with pan and zoom
+* Drag and drop note cards
+* Markdown editor with live preview
+* Connections between notes with labeled edges
+* Graph visualization system
+* Search and filtering system
+* Local-first storage using IndexedDB (no backend)
+* Offline support
+* Export system (Markdown, JSON, PNG, SVG)
+* Responsive UI with dark/light mode
+
+---
+
+## Tech Stack Requested
+
+* Next.js 15 (App Router)
+* TypeScript
+* Tailwind CSS
+* React
+* Zustand
+* React Flow
+* IndexedDB (Dexie)
+* Service Worker (PWA support)
+* Framer Motion
+
+---
+
+## Advanced Requirements
+
+* Handle 500+ notes smoothly
+* Handle 1000+ connections
+* 60 FPS canvas performance target
+* Modular architecture
+* Clean component structure
+* Fully offline-first design
+
+---
+
+## Output Expected from AI
+
+* Full working Next.js project
+* Canvas system
+* Graph engine
+* Markdown editor
+* IndexedDB storage layer
+* Export system
+* PWA setup
+* Tests and documentation
+* Deployment configuration
+
+---
+
+## Constraint
+
+* No backend allowed
+* Must work fully offline
+* Must be production-ready
