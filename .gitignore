@@ -1,0 +1,12 @@
+.next
+node_modules
+coverage
+playwright-report
+test-results
+dist
+*.tsbuildinfo
+.env
+.env.local
+.vercel
+.npm-cache
+*.log

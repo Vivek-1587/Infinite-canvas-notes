@@ -1,0 +1,28 @@
+{
+  "name": "Infinite Canvas Notes",
+  "short_name": "Canvas Notes",
+  "description": "A local-first infinite canvas for markdown notes and visual knowledge graphs.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#09090b",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Note",
+      "short_name": "New",
+      "description": "Open Infinite Canvas Notes and create a note.",
+      "url": "/?new=note",
+      "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
